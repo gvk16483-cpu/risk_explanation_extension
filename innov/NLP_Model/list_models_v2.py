@@ -1,7 +1,7 @@
 from google import genai
 import os
 
-api_key = "AIzaSyD-ae0dRQTAvNIUK6gYpTU1mh6mKB7nogM"
+api_key = ""
 os.environ["GOOGLE_API_KEY"] = api_key
 
 print("Initializing google.genai.Client...")
@@ -21,3 +21,4 @@ try:
         
 except Exception as e:
     print(f"Client init failed: {e}")
+
